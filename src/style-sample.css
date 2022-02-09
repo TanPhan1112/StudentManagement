@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+.chooser {
+    overflow-y: scroll;
+}
+
+.chooser button:hover {
+    background-color: papayawhip;
+}
+
+.chooser button:active {
+    background-color: darkturquoise;
+}
+
+.chooser,
+.details {
+    background-color: white;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .5);
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: .2rem;
+}
+
+.semester {
+    color: red;
+}
+
+#stdId {
+    color: red;
+}
+
+#semester {
+    color: red;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 15px;
+}
